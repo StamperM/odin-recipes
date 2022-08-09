@@ -1,7 +1,6 @@
 *{
-    background-color: black;
     font-family: "Frank Ruhl Libre",Georgia,serif;
-    color: rgb(17, 248, 248);
+    color: rgb(33, 33, 33);
 }
 h1{
     
@@ -24,10 +23,18 @@ h1,h2,h3 {
 
 
 p{
-    color: rgb(17, 248, 248);
+    color: rgb(35, 39, 39);
     text-align: justify;
 }
-ol{
+ul{
     
-    color: rgba(64, 238, 215, 0.938);
+    color: rgb(35, 39, 39);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+a:link{
+    text-decoration: none;
+    
+}
+
