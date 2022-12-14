@@ -1,6 +1,7 @@
 *{
     font-family: "Frank Ruhl Libre",Georgia,serif;
     color: rgb(33, 33, 33);
+    background-color: rgb(166, 100, 202);
 }
 h1{
     
@@ -10,7 +11,10 @@ h1{
 img{
    
     border-radius: 10% ;
-    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 h1,h2,h3 { 
     text-align: center;
@@ -28,7 +32,7 @@ p{
 }
 ul{
     
-    color: rgb(35, 39, 39);
+    color: rgb(67, 88, 88);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,4 +41,19 @@ a:link{
     text-decoration: none;
     
 }
+.foodAndIngredince{
+    display: flex;
+    align-items: flex-end;
+}
+.mainNav {
+    background-color: aqua;
+    color:black;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
 
+.rec
+a:hover {
+    background-color: yellow;
+  }
